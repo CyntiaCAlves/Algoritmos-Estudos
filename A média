@@ -1,0 +1,13 @@
+algoritmo "A média"
+var
+     n1,n2,media: real
+     
+inicio
+     Escreva("Digite qualquer número: ")
+     Leia (n1)
+     Escreva("Digite qualquer número: ")
+     Leia (n2)
+     media <- (n1 + n2) / 2
+     Escreval ("A média de",n1," e",n2," é igual a",media)
+     
+fimalgoritmo
