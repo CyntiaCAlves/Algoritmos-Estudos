@@ -1,0 +1,19 @@
+algoritmo "Maior número"
+var
+     n1,n2: real
+     
+inicio
+     Escreva("Digite qualquer número: ")
+     Leia (n1)
+     Escreva("Digite qualquer número: ")
+     Leia (n2)
+     Se n1 = n2 entao
+     Escreva("Os números",n1," e",n2," são iguais.")
+     senao
+        Se n1 > n2 entao
+           Escreva("O número",n1," é maior que",n2)
+        senao
+           Escreva("O número",n2," é maior que",n1)
+        fimse
+     fimse
+fimalgoritmo
