@@ -1,0 +1,11 @@
+algoritmo "O dobro"
+var
+     n1,dobro: real
+     
+inicio
+     Escreva("Digite um número qualquer: ")
+     Leia (n1)
+     dobro <- n1 * 2
+     Escreval ("O dobro de",n1," é igual a",dobro)
+     
+fimalgoritmo
