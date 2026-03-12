@@ -1,0 +1,11 @@
+algoritmo "Antecessor e sucessor"
+var
+   n1: inteiro
+
+inicio
+      Escreva("Digite um número inteiro qualquer: ")
+      Leia (n1)
+      Escreval("O número inteiro antecessor é: ",(n1-1))
+      Escreval("O número inteiro sucessor é: ",(n1+1))
+
+fimalgoritmo
