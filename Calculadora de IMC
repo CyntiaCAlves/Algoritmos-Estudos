@@ -1,0 +1,36 @@
+algoritmo "Calculadora de IMC"
+var
+   n1, n2, IMC: real
+
+inicio
+      Escreva("Qual a sua altura(m)?: ")
+      Leia (n1)
+      Escreva("Qual o seu peso(kg)?: ")
+      Leia (n2)
+      IMC <- n2 / n1 ^ 2
+      Escreval("Seu IMC calculado é igual a: ",IMC)
+      
+      Se IMC < 18.5 entao
+         Escreval("Sua classificação é: Abaixo do peso")
+         senao
+            Se ((18.5 <= IMC) e (IMC <= 24.9)) entao
+               Escreval("Sua classificação é: Peso normal")
+            senao
+               Se ((25 <= IMC) e (IMC <= 29.9)) entao
+                  Escreval("Sua classificação é: Sobrepeso")
+               senao
+                  Se ((30 <= IMC) e (IMC <= 34.9)) entao
+                     Escreval("Sua classificação é: Obesidade Grau I")
+                  senao
+                     Se ((35 <= IMC) e (IMC <= 39.9)) entao
+                        Escreval("Sua classificação é: Obesidade Grau II")
+                     senao
+                        Se (IMC >= 40) entao
+                           Escreval("Sua classificação é: Obesidade Grau III")
+                        fimse
+                     fimse
+                  fimse
+               fimse
+            fimse
+         fimse
+fimalgoritmo
