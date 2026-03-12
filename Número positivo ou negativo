@@ -1,0 +1,17 @@
+algoritmo "Número positivo ou negativo"
+var
+   n1: inteiro
+
+inicio
+      Escreva("Digite um número inteiro qualquer: ")
+      Leia (n1)
+      Se n1=0 entao
+         Escreval("O número é igual a 0, portanto ele é NULO")
+         senao
+            Se n1>0 entao
+               Escreval("O número digitado é POSITIVO")
+               senao
+               Escreval("O número digitado é NEGATIVO")
+            fimse
+      fimse
+fimalgoritmo
