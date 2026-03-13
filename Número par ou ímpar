@@ -1,0 +1,13 @@
+algoritmo "Número par ou ímpar"
+var
+      n1: inteiro
+   
+inicio
+      Escreva("Digite um número: ")
+      Leia (n1)
+      Se n1 % 2 = 0 entao
+         Escreval("Este número é PAR")
+         senao
+         Escreval("Este número é IMPAR")
+      fimse
+fimalgoritmo
