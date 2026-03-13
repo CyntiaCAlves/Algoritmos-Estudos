@@ -1,0 +1,11 @@
+algoritmo "Conversão de temperatura"
+var
+      n1, fah: real
+   
+inicio
+      Escreva("Qual a temperatura em (ºC)? ")
+      Leia (n1)
+      fah <- (n1 * (9 / 5) + 32)
+      Escreva("A temperatura em Fahrenheit é igual a ",fah)
+      Escreval("ºF")
+fimalgoritmo
