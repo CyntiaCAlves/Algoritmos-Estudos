@@ -1,0 +1,15 @@
+algoritmo "Desconto de produto"
+var
+      n1, n2, desc, preco: Real
+   
+inicio
+      Escreva("Digite o preço do produto (R$): ")
+      Leia(n1)
+      Escreva("Valor do desconto(%): ")
+      Leia(n2)
+      desc <- n1 * (n2/100)
+      Escreval("O valor do desconto é de ",desc)
+      preco <- n1 - desc
+      Escreval("O valor final do produto é ",preco)
+
+fimalgoritmo
