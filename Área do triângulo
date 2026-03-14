@@ -1,0 +1,14 @@
+algoritmo "Área do triângulo"
+var
+   L1, L2, area: real
+   
+inicio
+      Escreval("Qual a área do TRIÂNGULO")
+      Escreva("Qual a medida da base? ")
+      Leia(L1)
+      Escreva("Qual a medida da altura? ")
+      Leia(L2)
+      area <- ((L1 * L2)/2)
+      Escreval("A área do triângulo é igual a ",area)
+      
+fimalgoritmo
