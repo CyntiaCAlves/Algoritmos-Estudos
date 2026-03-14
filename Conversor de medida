@@ -1,0 +1,12 @@
+algoritmo "Conversor de medida"
+var
+   m, cm : real
+   
+inicio
+      Escreval("CONVERSOR DE MEDIDA")
+      Escreva("Qual a medida em metros(m)? ")
+      Leia(m)
+      cm <- m * 100
+      Escreval("A medida em centímetros(cm) é igual a ",cm)
+
+fimalgoritmo
