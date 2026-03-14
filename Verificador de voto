@@ -1,0 +1,14 @@
+algoritmo "Verificador de idade para votar"
+var
+   idade: inteiro
+   
+inicio
+      Escreval("-----SITUAÇÃO PARA VOTAR-----")
+      Escreva("Digite a sua idade? ")
+      Leia(idade)
+      Se (idade >= 16) entao
+           Escreval("Você está APTO a votar.")
+      senao
+           Escreval("Você ainda NÃO pode votar.")
+      fimse
+fimalgoritmo
