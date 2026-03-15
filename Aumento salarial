@@ -1,0 +1,11 @@
+algoritmo "Aumento salarial"
+var
+    sal, aum, reajuste: real
+inicio
+      Escreva("Qual o seu salário atual? R$ ")
+      Leia(sal)
+      Escreva("Qual o reajuste(%)? ")
+      Leia(aum)
+      reajuste <- sal + (sal * (aum/100))
+      Escreval("Seu novo salário será de R$ ",reajuste)
+fimalgoritmo
