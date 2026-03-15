@@ -1,0 +1,13 @@
+algoritmo "Múltiplo de 3"
+var
+    valor, mult: inteiro
+inicio
+      Escreva("Qual é o valor? ")
+      Leia(valor)
+      mult <- valor % 3
+      Se mult = 0 entao
+           Escreval("Este valor é múltiplo de 3.")
+      senao
+           Escreval("Este número não é múltiplo de 3.")
+      Fimse
+fimalgoritmo
