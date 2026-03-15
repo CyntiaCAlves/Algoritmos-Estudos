@@ -1,0 +1,20 @@
+algoritmo "Classificação de nota"
+var
+    nota1, nota2, notaf: real
+inicio
+      Escreva("Qual a sua primeira nota? ")
+      Leia(nota1)
+      Escreva("Qual a sua segunda nota? ")
+      Leia(nota2)
+      notaf <- (nota1 + nota2)/2
+      Escreval("Sua média final foi ",notaf)
+      Se notaf < 5 entao
+         Escreval("Você foi REPROVADO")
+      senao
+           se (notaf >= 5) e (notaf < 7) entao
+                Escreval("Você está de RECUPERAÇÃO!")
+           senao
+                Escreval("Você foi APROVADO!")
+           fimse
+      fimse
+fimalgoritmo
