@@ -1,0 +1,25 @@
+algoritmo "semnome"
+var
+   n, contador, valor, maior, somador: inteiro
+          
+inicio
+      Escreva("Mostar quantos números? ")
+      Leia(n)
+      contador <- 1
+      somador <- 0
+      Enquanto (contador <= n) faca
+            Escreva("Qual o", contador,"º valor? ")
+            Leia(valor)
+            Se (contador = 1) entao
+               maior <- valor
+            senao
+               Se (valor > maior) entao
+                  maior <- valor
+               FimSe
+            FimSe
+            somador <- somador + valor
+            contador <- contador + 1
+      FimEnquanto
+      Escreval("O maior valor digitado foi ",maior)
+      Escreval("A soma de todos os valores é igual a ",somador)
+fimalgoritmo
