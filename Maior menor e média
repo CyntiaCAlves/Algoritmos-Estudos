@@ -1,0 +1,40 @@
+algoritmo "Maior, menor e média"
+var
+   n1, n2, f: inteiro
+   total: real
+   resp: caractere
+
+inicio
+      Escreva("Digite um número: ")
+      Leia(n1)
+      Escreva("Digite outro número: ")
+      Leia(n2)
+      Escreval("--------------------------")
+      Escreval("[1] Para soma (+)")
+      Escreval("[2] Para subtração (-)")
+      Escreval("[3] Para multiplicação (x)")
+      Escreval("[4] Para divisão (/)")
+      Escreval("--------------------------")
+      
+      Repita
+         Escreva("Qual operação foi escolhida ")
+         Leia(f)
+         Escolha (f)
+             Caso 1
+                 total <- n1 + n2
+                 Escreval("A soma dos valore é igual a ",total:5:2)
+             Caso 2
+                 total <- n1 - n2
+                 Escreval("A subtração dos valore é igual a ",total:5:2)
+             Caso 3
+                 total <- n1 * n2
+                 Escreval("A multiplicação dos valore é igual a ",total:5:2)
+             Caso 4
+                 total <- n1 / n2
+                 Escreval("A divisão dos valore é igual a ",total:5:2)
+         FimEscolha
+         Escreval("")
+         Escreva("Quer fazer outra operação [S/N]? ")
+         Leia(resp)
+      Ate(resp = "N")
+fimalgoritmo
